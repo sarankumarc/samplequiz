@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    font-family: 'poppins',sans-serif;
+    color: rgb(15, 15, 15);
+}
+
+
+section{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    background:url("https://i0.wp.com/idealog.co.nz/wp-content/uploads/media/images2015/articles/2019/05/shutterstock_1045327387-scaled.jpg?fit=2560%2C2014&ssl=1");
+    background-size:cover;
+    background-position: center ;
+    box-shadow: 7px 7px 60px #000;
+}
+
+.contentbox{
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:linear-gradient(rgba(0,0,0,0,3),rgba(0,0,0,0,3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.control input{
+    width: 100%;
+   display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+
+}
+.control input[type="submit"]{
+    background: crimson;
+    color: #fff;
+    
+    font-size: 1.2em;
+    opacity: .8;
+    transition: opacity .3s ease;
+
+
+}
+.contentbox input[type="submit"]:hover{
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+.link a:hover{
+    opacity: 1;
+}
+
+/*
+section .imgbox{
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+}
+section .imgbox:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(255deg,#e91e63,#03a9f4);
+    z-index:1;
+    mix-blend-mode:screen;
+}
+section .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}*/
+
+
+/*.contentbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:linear-gradient(rgba(0,0,0,0,3),rgba(0,0,0,0,3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+
+
+
+}/*
+section .contentbox{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}*/
+/*
+section .contentbox h2{
+    width: 50%;
+    color: #607d8b;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom:4px solid #ff4584;
+    display:inline-block;
+    letter-spacing: 1px;
+}
+section .contentbox  .input{
+    margin-bottom: 20px;
+}
+section .contentbox  .input span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color:#607d8b;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+section .contentbox .input input{
+    width: 100%;
+    padding:10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size:16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background:transparent;
+   
+}
+section .contentbox .input input[type="submit"]
+{
+    background:#ff4584;
+    color:#fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 30px;
+}
+section .contentbox.input input[type="submit"]:hover{
+    background:#f53677;
+
+}
+section .contentbox  .Remember{
+    margin-bottom:20px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size:14px;
+    
+}
+section .contentbox .input p{
+    color:#607d8b;
+
+
+}
+section .contentbox .input p a{
+    color:#ff4584;
+}*/
+body{
+    background-color: lightblue;
+  
+}
+.quiz{
+   
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: large; 
+
+}
+.title{
+    background-color: rebeccapurple;
+
+}
+h1{
+    text-align:center;
+    
+}
+input[type="radio"]:hover{
+    cursor: pointer;
+}
+
+.question1{
+    margin-top: 20px;
+    border: 1px solid ;
+    box-shadow: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 30px;
+    background-color:violet;
+ 
+    
+
+}
+
+.submit input[type="submit"]{
+    background-color: rgb(45, 178, 240);
+    color:black; 
+    padding: 10px;
+    border: none;
+    outline: none;
+    display: block;
+    width: 100%;
+
+}
+.submit input[type="submit"]:hover{
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+.score{
+    text-align: center;
+    font-weight: 300;
+    font-size: larger;
+}
+@media screen and (max-width: 600px) {
+   body{
+
+   }
+   .quiz{
+       width:100%;
+       height: 30%;
+   }
+   .question1{
+       top:80%;
+       width:100%;
+       
+   }
+  }
